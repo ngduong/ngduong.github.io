@@ -1,4 +1,4 @@
-name: "abc"
+name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
@@ -6,9 +6,9 @@ right:
   - text: "About"
 href: about.html
 - icon: fa-envelope fa-lg
-href: mailto:<nqd2000@cumc.columbia.com>
+href: mailto:<you@youremail.com>
   - icon: fa-github fa-lg
-href: http://github.com/<ngduong>/
+href: http://github.com/<YOUR_GH_NAME>/
   output:
   html_document:
-  theme: cosmo
+  theme: cerulean
