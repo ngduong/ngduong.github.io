@@ -1,0 +1,21 @@
+---
+title: "Ngoc Q. Duong"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo 
+editor_options: 
+  chunk_output_type: console
+---
+
+# Welcome to my page 
+
+![First year MS Biostatistics student at Columbia Mailman School of Public Health](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
+
+# About me 
+You can learn about me [here](about.html)
+
+# Projects
+
+
