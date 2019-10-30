@@ -11,5 +11,5 @@ editor_options:
 
 I'm a student.
 
-Here is more stuff about me 
+Here is my [resume](resume.html) 
 
