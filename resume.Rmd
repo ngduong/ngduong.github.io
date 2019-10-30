@@ -6,5 +6,5 @@ output:
     toc_float: true
     theme: cosmo
 ---
-<a href="ngduong.github.io/blob/master/Ngoc%20Duong_resume.pdf" target="_blank">https://github.com/ngduong/ngduong.github.io/blob/master/Ngoc%20Duong_resume.pdf .</a>
+This is my embedded resume 
 
