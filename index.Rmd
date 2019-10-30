@@ -4,9 +4,15 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: cosmo
 ---
 
-# This is Jeff's awesome website
+# Welcome to my page 
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![First year MS Biostatistics student at Columbia Mailman School of Public Health](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
+
+# About me 
+You can learn about me [here](about.html)
+
+# Projects
+
