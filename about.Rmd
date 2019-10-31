@@ -11,5 +11,5 @@ editor_options:
 
 I'm a student.
 
-Here is my [resume](resume.html) 
+Here is my [resume](./Ngoc Duong_resume.pdf) 
 
