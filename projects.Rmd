@@ -9,9 +9,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Projects
-
-### Public health projects
+## Public health projects
 
  - *Immunity and Cognitive Function Among Elderly People:
 A Cross-Sectional Study* [link](./Biol 288_final project.pdf)
@@ -22,7 +20,7 @@ infection* [link](./Biostatistics_final project report_Ngoc.pdf)
  - *Hepatitis B knowledge and medical practices among healthcare professionals in Vietnam: a cross-sectional
 study* [link](./Asian Liver Center report_Ngoc Duong.pdf) 
 
-### Economics projects
+## Economics projects
 
  - *“Excuse Me, I’m Sorry”: The Effects of Apologies and Excuses for Mistakes* [link](./ECON 333 Final Paper.pdf)
 
