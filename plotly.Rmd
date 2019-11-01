@@ -19,7 +19,7 @@ library(dplyr)
 library(stringr)
 ```
 
-Row
+Column {data-width=650}
 -----------------------------------------------------------------------
 
 ```{r, echo = FALSE}
@@ -64,7 +64,7 @@ instacart_df_clean %>%
          )
 ```
 
-Row
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
