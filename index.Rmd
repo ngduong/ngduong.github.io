@@ -9,7 +9,7 @@ output:
 
 ### Welcome to my page 
 
-!["What is the past but what we choose to remember?" -- *Amy Tan*](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
+![My favorite quote: "What is the past but what we choose to remember?" -- *Amy Tan*](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
 
 ### About me 
 You can learn about me [here](about.html)

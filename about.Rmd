@@ -9,7 +9,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-I'm a student.
+I was born and raised in Vietnam, attended Vassar College in Poughkeepsie, NY, where I did Economics and Chinese. I am now a first-year MS Biostatistics student at Columbia Mailman School of Public Health, hoping to understand the challenges in health care and hopefully contribute to alleviate those. 
 
 Here is my [resume](./Ngoc Duong_resume.pdf) 
 
