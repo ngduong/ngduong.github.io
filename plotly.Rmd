@@ -22,8 +22,6 @@ library(stringr)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
-
 ```{r, echo = FALSE}
 data(instacart)
 set.seed(7)
@@ -70,8 +68,6 @@ instacart_df_clean %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
-
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
 instacart_df_clean %>% 
 filter(reordered == 1 & days_since_prior_order < 8) %>% 
@@ -90,8 +86,8 @@ filter(reordered == 1 & days_since_prior_order < 8) %>%
          )
 ```
 
-### Chart C
-
+Column {data-width=350}
+-----------------------------------------------------------------------
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
 plot3 = instacart_df_clean %>% 
 filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vegetables fruits")) %>% 
