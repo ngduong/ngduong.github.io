@@ -7,13 +7,9 @@ output:
     theme: cosmo
 ---
 
-# Welcome to my page 
+### Welcome to my page 
 
-![First year MS Biostatistics student at Columbia Mailman School of Public Health](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
+!["What is the past but what we choose to remember?" -- *Amy Tan*](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
 
-# About me 
+### About me 
 You can learn about me [here](about.html)
-
-# Projects
-
-Here is the [dashboard](dashboard.html) for a couple nyc airbnb data visualizations.

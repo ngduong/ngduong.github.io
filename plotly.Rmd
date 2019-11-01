@@ -1,22 +1,114 @@
 ---
-title: "Ngoc Q. Duong"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: cosmo 
+title: ""
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 editor_options: 
   chunk_output_type: console
 ---
 
-# Welcome to my page 
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(plotly)
+library(leaflet)
+library(p8105.datasets)
+library(forcats)
+library(dplyr)
+library(stringr)
+```
 
-![First year MS Biostatistics student at Columbia Mailman School of Public Health](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-# About me 
-You can learn about me [here](about.html)
+### Chart A
 
-# Projects
+```{r, echo = FALSE}
+data(instacart)
+set.seed(7)
+instacart_df = 
+  instacart %>% 
+  select(-c("product_id","eval_set", "aisle_id","department_id")) %>%
+  sample_n(5000)
+```
+
+```{r, echo = FALSE}
+instacart_df_clean =
+  instacart_df %>% 
+  mutate(order_hour_of_day = factor(order_hour_of_day),
+         order_id = as.character(order_id),
+         order_dow = factor(order_dow),
+         order_dow = recode(order_dow,
+             "0" = "Sun",
+             "1" = "Mon",
+             "2" = "Tue",
+             "3" = "Wed",
+             "4" = "Thu",
+             "5" = "Fri",
+             "6" = "Sat",)
+         )
+
+instacart_df_clean %>% 
+  group_by(order_dow, order_hour_of_day) %>% 
+  summarize(total = n()) %>% 
+  ungroup() %>% 
+  mutate(text_label = str_c("Hour of day: ", order_hour_of_day, "h", "\nTotal orders: ", total, " orders")) %>%
+  plot_ly(x = ~order_hour_of_day, 
+          y = ~total,
+          type = "scatter", mode = "line",
+          color = ~order_dow,
+          text = ~text_label, 
+          alpha = 0.7) %>%
+  layout(title = "Total number of orders per day by hour",
+         xaxis = list(title = "Hour of the day", tickangle = 0),
+         yaxis = list(title = "Order count")
+         )
+```
 
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+instacart_df_clean %>% 
+filter(reordered == 1 & days_since_prior_order < 8) %>% 
+  count(aisle) %>% 
+  top_n(20) %>% 
+  mutate(aisle = fct_reorder(aisle, desc(n)),
+        text_label = str_c("Count: ", n, " products")) %>% 
+  plot_ly(x = ~aisle, 
+          y = ~ n,
+          type = "scatter", mode = "markers",
+          text = ~text_label, 
+          alpha = 0.9) %>%
+  layout(title = "Top 10 aisles reordered from within 7 days",
+         yaxis = list(title = "Number of reorders"),
+         xaxis = list(title = "Aisle name", tickangle = 45)
+         )
+```
+
+### Chart C
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE}
+plot3 = instacart_df_clean %>% 
+filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vegetables fruits")) %>% 
+  group_by(order_dow, product_name) %>% 
+  summarize(total = n()) %>%
+  arrange(desc(total)) %>% 
+  slice(1:3) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = order_dow,
+             y = total,
+             fill = product_name)) + 
+  geom_bar(stat = "identity") +
+  labs(title = "Top 3 products ordered each day",
+       x = "Day of week",
+       y = "Order count") + 
+theme(legend.position = "bottom")
+
+ggplotly(plot3)
+```
 
