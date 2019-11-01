@@ -29,9 +29,7 @@ instacart_df =
   instacart %>% 
   select(-c("product_id","eval_set", "aisle_id","department_id")) %>%
   sample_n(5000)
-```
 
-```{r, echo = FALSE}
 instacart_df_clean =
   instacart_df %>% 
   mutate(order_hour_of_day = factor(order_hour_of_day),
@@ -85,6 +83,7 @@ filter(reordered == 1 & days_since_prior_order < 8) %>%
          )
 ```
 
+-----------------------------------------------------------------------
 
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
 plot3 = instacart_df_clean %>% 
