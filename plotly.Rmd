@@ -21,7 +21,7 @@ library(stringr)
 
 Column {data-width=500}
 -----------------------------------------------------------------------
-### Chart 1
+### Top 3 products in top 3 aisles ordered each day
 ```{r, echo = FALSE}
 data(instacart)
 set.seed(7)
@@ -65,8 +65,7 @@ filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vege
            position = position_dodge()) +
   viridis::scale_color_viridis(
     discrete = TRUE) + 
-  labs(title = "Top 3 products in top 3 aisles ordered each day",
-       x = "Day of week",
+  labs(x = "Day of week",
        y = "Order count") + 
   theme(legend.position = "bottom",
         legend.title = element_text())
@@ -76,7 +75,7 @@ ggplotly(plot1)                #make a plotly plot from ggplot using ggplotly
 
 Column {data-width=500}
 -----------------------------------------------------------------------
-### Chart 2
+### Top 10 aisles reordered from within 7 days
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
 #barplot for top 20 aisles getting reordered within 7 days 
 instacart_df_clean %>% 
@@ -93,9 +92,7 @@ filter(reordered == 1 & days_since_prior_order < 8) %>% #filter out products tha
           type = "scatter", mode = "markers",
           text = ~text_label, 
           alpha = 0.9) %>%
-  layout(title =                  #format plot_ly plot
-           "Top 10 aisles reordered from within 7 days", 
-         yaxis = 
+  layout(yaxis =                  #format plot_ly plot 
            list(title = "Number of reorders"),
          xaxis = 
            list(title = "Aisle name", 
@@ -104,7 +101,7 @@ filter(reordered == 1 & days_since_prior_order < 8) %>% #filter out products tha
 ```
 
 -----------------------------------------------------------------------
-### Chart 3
+### Total number of orders per day by hour
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
 #plot for total number of orders per day by hour 
 instacart_df_clean %>% 
@@ -121,8 +118,7 @@ instacart_df_clean %>%
           color = ~order_dow,
           text = ~text_label, 
           alpha = 0.7) %>%
-  layout(title = "Total number of orders per day by hour",
-         xaxis = list(title = "Hour of the day", tickangle = 0),
+  layout(xaxis = list(title = "Hour of the day", tickangle = 0),
          yaxis = list(title = "Order count")
          )
 ```
