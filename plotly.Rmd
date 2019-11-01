@@ -19,7 +19,7 @@ library(dplyr)
 library(stringr)
 ```
 
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 ### Chart 1
 ```{r, echo = FALSE}
@@ -60,12 +60,13 @@ filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vege
   labs(title = "Top 3 products ordered each day",
        x = "Day of week",
        y = "Order count") + 
-theme(legend.position = "bottom")
+theme(legend.position = "bottom",
+      legend.title = element_text())
 
 ggplotly(plot1)
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 ### Chart 2
 ```{r message = FALSE, warning = FALSE, echo = FALSE}

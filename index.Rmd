@@ -2,8 +2,6 @@
 title: "Ngoc Q. Duong"
 output: 
   html_document:
-    toc: true
-    toc_float: true
     theme: cosmo
 ---
 
@@ -12,4 +10,4 @@ output:
 ![My favorite quote: "What is the past but what we choose to remember?" -- *Amy Tan*](./12184999_911883312198586_9058498063866899305_o (1).jpg) 
 
 ### About me 
-You can learn about me [here](about.html)
+Thanks for visiting the site! If interested, you can learn a little bit about me [here](about.html)
