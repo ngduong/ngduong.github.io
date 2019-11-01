@@ -21,7 +21,7 @@ library(stringr)
 
 Column {data-width=650}
 -----------------------------------------------------------------------
-
+### Chart 1
 ```{r, echo = FALSE}
 data(instacart)
 set.seed(7)
@@ -64,7 +64,7 @@ instacart_df_clean %>%
 
 Column {data-width=350}
 -----------------------------------------------------------------------
-
+### Chart 2
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
 instacart_df_clean %>% 
 filter(reordered == 1 & days_since_prior_order < 8) %>% 
@@ -84,7 +84,7 @@ filter(reordered == 1 & days_since_prior_order < 8) %>%
 ```
 
 -----------------------------------------------------------------------
-
+### Chart 3
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
 plot3 = instacart_df_clean %>% 
 filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vegetables fruits")) %>% 
@@ -96,7 +96,8 @@ filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vege
   ggplot(aes(x = order_dow,
              y = total,
              fill = product_name)) + 
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity",
+           position = position_dodge()) +
   labs(title = "Top 3 products ordered each day",
        x = "Day of week",
        y = "Order count") + 
