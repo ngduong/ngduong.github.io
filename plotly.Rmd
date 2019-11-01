@@ -86,7 +86,7 @@ filter(reordered == 1 & days_since_prior_order < 8) %>%
           alpha = 0.9) %>%
   layout(title = "Top 10 aisles reordered from within 7 days",
          yaxis = list(title = "Number of reorders"),
-         xaxis = list(title = "Aisle name", tickangle = 45)
+         xaxis = list(title = "Aisle name", tickangle = 25)
          )
 ```
 
