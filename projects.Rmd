@@ -11,17 +11,17 @@ editor_options:
 
 ## Public health projects
 
- - *Immunity and Cognitive Function Among Elderly People:
-A Cross-Sectional Study* [link](./Biol 288_final project.pdf)
+ - "Immunity and Cognitive Function Among Elderly People:
+A Cross-Sectional Study" -- by *Ngoc Duong, Alicia Lewis, and Kathryn Burke* [link](./Biol 288_final project.pdf)
 
- - *Socioeconomic factors and viral hepatitis B
-infection* [link](./Biostatistics_final project report_Ngoc.pdf)
+ - "Socioeconomic factors and viral hepatitis B
+infection" -- by *Ngoc Duong* [link](./Biostatistics_final project report_Ngoc.pdf)
 
- - *Hepatitis B knowledge and medical practices among healthcare professionals in Vietnam: a cross-sectional
-study* [link](./Asian Liver Center report_Ngoc Duong.pdf) 
+ - "Hepatitis B knowledge and medical practices among healthcare professionals in Vietnam: a cross-sectional
+study" -- by *Ngoc Duong and Ping-Jui Ko* [link](./Asian Liver Center report_Ngoc Duong.pdf) 
 
 ## Economics projects
 
- - *“Excuse Me, I’m Sorry”: The Effects of Apologies and Excuses for Mistakes* [link](./ECON 333 Final Paper.pdf)
+ - '“Excuse Me, I’m Sorry”: The Effects of Apologies and Excuses for Mistakes' -- by *Ngoc Duong, Margaux Lieser, Yicai Wang, and Karmen Hutchinson* [link](./ECON 333 Final Paper.pdf)
 
- - *Multivariate Regression Modeling to Estimate Home Prices in Brooklyn* [link](./Math242_summary_report_Alex&Ngoc.pdf)
+ - "Multivariate Regression Modeling to Estimate Home Prices in Brooklyn" -- by *Ngoc Duong and Alexander Koo* [link](./Math242_summary_report_Alex&Ngoc.pdf)
