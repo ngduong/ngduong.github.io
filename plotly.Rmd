@@ -19,7 +19,7 @@ library(dplyr)
 library(stringr)
 ```
 
-Column {data-width=650}
+Row
 -----------------------------------------------------------------------
 
 ```{r, echo = FALSE}
@@ -64,7 +64,7 @@ instacart_df_clean %>%
          )
 ```
 
-Column {data-width=350}
+Row
 -----------------------------------------------------------------------
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
@@ -85,8 +85,7 @@ filter(reordered == 1 & days_since_prior_order < 8) %>%
          )
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
+
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
 plot3 = instacart_df_clean %>% 
 filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vegetables fruits")) %>% 
