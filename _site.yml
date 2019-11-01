@@ -3,9 +3,9 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-  - text: "About"
+  - text: "About me"
     href: about.html
-  - text: "dashboard"
+  - text: "Dashboard"
     href: dashboard.html
   - icon: fa-envelope fa-lg
     href: mailto:nqd2000@cumc.columbia.edu
