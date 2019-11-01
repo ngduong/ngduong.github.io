@@ -46,20 +46,26 @@ instacart_df_clean =
              "6" = "Sat",)
          )
 
-#plot to get top 3 products ordered each day of week 
+#plot to get top 3 products ordered each day of week among top 3 aisles
 plot1 = instacart_df_clean %>% 
 filter(aisle %in% c("fresh fruits", "fresh vegetables", "yogurt", "packaged vegetables fruits")) %>% 
-  group_by(order_dow, product_name) %>%  #group by day of order and product name
+  group_by(order_dow, 
+           product_name) %>%    #group by day of order and product name
   summarize(total = n()) %>%    #count number of product name in group
   arrange(desc(total)) %>%      #arrange number of products in descending order
   slice(1:3) %>%                #get top 3 product counts for each day of week
-  ungroup() %>%       
+  ungroup() %>%    
+  mutate(product_name = 
+          fct_reorder(
+            product_name, desc(total))) %>% 
   ggplot(aes(x = order_dow,     #graphing bar plot using ggplot 
              y = total,
              fill = product_name)) + 
   geom_bar(stat = "identity",
            position = position_dodge()) +
-  labs(title = "Top 3 products ordered each day",
+  viridis::scale_color_viridis(
+    discrete = TRUE) + 
+  labs(title = "Top 3 products in top 3 aisles ordered each day",
        x = "Day of week",
        y = "Order count") + 
   theme(legend.position = "bottom",
@@ -72,6 +78,7 @@ Column {data-width=500}
 -----------------------------------------------------------------------
 ### Chart 2
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
+#barplot for top 20 aisles getting reordered within 7 days 
 instacart_df_clean %>% 
 filter(reordered == 1 & days_since_prior_order < 8) %>% #filter out products that are reordered within 7 days
   count(aisle) %>%                #group and count the number of aisles with such criteria
