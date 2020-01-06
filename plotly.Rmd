@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Dashboard for Exploring Instacart data"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns

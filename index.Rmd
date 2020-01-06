@@ -11,3 +11,6 @@ output:
 
 ### About me 
 Thanks for visiting the site! If interested, you can learn a little bit about me [here](about.html)
+
+### Projects
+Some of the research projects I did could be found [here](projects.html)

@@ -11,6 +11,8 @@ editor_options:
 
 ## Public health projects
 
+ - "Gender Discrimination in Salary Setting: a case study from a US medical school" -- by *Ngoc Duong, Junxian Chen, Mengjia Lyu, and Bingkun Luo* [link](./P8130_Final_Project.pdf)
+
  - "Immunity and Cognitive Function Among Elderly People:
 A Cross-Sectional Study" -- by *Ngoc Duong, Alicia Lewis, and Kathryn Burke* [link](./Biol 288_final project.pdf)
 
@@ -25,3 +27,7 @@ study" -- by *Ngoc Duong and Ping-Jui Ko* [link](./Asian Liver Center report_Ngo
  - '“Excuse Me, I’m Sorry”: The Effects of Apologies and Excuses for Mistakes' -- by *Ngoc Duong, Margaux Lieser, Yicai Wang, and Karmen Hutchinson* [link](./ECON 333 Final Paper.pdf)
 
  - "Multivariate Regression Modeling to Estimate Home Prices in Brooklyn" -- by *Ngoc Duong and Alexander Koo* [link](./Math242_summary_report_Alex&Ngoc.pdf)
+
+## Data Science project
+
+ - Trends of Taxi Services in New York City on Valentine's Day 2019 -- by *Ngoc Duong, Sabrina Lin, James Ng, and Adeline Shin* [link](https://abcdefg781.github.io/ds_final_project/index.html)
