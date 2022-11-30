@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -25,6 +24,15 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -70,6 +78,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -234,6 +243,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -280,20 +290,17 @@ $(document).ready(function () {
   <a href="about.html">About me</a>
 </li>
 <li>
-  <a href="plotly.html">Plotly</a>
-</li>
-<li>
-  <a href="projects.html">Projects</a>
+  <a href="projects.html">Research</a>
 </li>
 <li>
   <a href="mailto:nqd2000@cumc.columbia.edu">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://github.com/ngduong/">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -311,8 +318,8 @@ $(document).ready(function () {
 </div>
 
 
-<div id="welcome-to-my-page" class="section level3">
-<h3>Welcome to my page!</h3>
+<div id="welcome" class="section level3">
+<h3>Welcome!</h3>
 <div class="figure">
 <img src="12184999_911883312198586_9058498063866899305_o%20(1).jpg" alt="My favorite quote: “What is the past but what we choose to remember?” – Amy Tan" />
 <p class="caption">My favorite quote: “What is the past but what we choose to remember?” – <em>Amy Tan</em></p>
@@ -336,7 +343,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

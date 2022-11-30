@@ -5,9 +5,7 @@ navbar:
   right:
   - text: "About me"
     href: about.html
-  - text: "Plotly"
-    href: plotly.html
-  - text: "Projects"
+  - text: "Research"
     href: projects.html
   - icon: fa-envelope fa-lg
     href: mailto:nqd2000@cumc.columbia.edu
