@@ -3,10 +3,15 @@ title: "Ngoc Q. Duong"
 output: 
   html_document:
     theme: cosmo
+fontsize: 15pt
 ---
 
-![](./317626289_1585681498519397_1984759190083035660_n.jpg) 
+<br> <center>
+<img src="./317626289_1585681498519397_1984759190083035660_n.jpg" style="border:5px solid" width="360" height="360" alt="centered image">
+</center> <br>
+
 
 I am a data analyst in the Childhood Research for Obesity Prevention group in the Department of Pediatrics, Columbia University. Prior to this, I received my BA in Economics and Chinese from Vassar College and MS in Biostatistics from Columbia University.
 
 My work involves leveraging electronic health records (EHR) to understand longitudinal patterns and effects of health-related social needs on pediatric obesity. I am passionate about applying statistical methods to answer questions in population health and health policy with the eventual goal of improving health for all.
+
