@@ -1,0 +1,7 @@
+---
+title: 'Cognitive Remediation in Schizophrenia: Exploring Treatment Effect Heterogeneity
+  to Improve Treatment Success'
+author: "Ngoc Duong"
+output: pdf_document
+---
+
