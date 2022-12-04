@@ -7,9 +7,9 @@ output:
     theme: cosmo 
 ---
 
-## Resume
+<h1>  </h1>
 
-Please find my resume [here](./Ngoc-Duong-resume-final.pdf)
+
 
 ## Applied works
 
@@ -19,5 +19,5 @@ Please find my resume [here](./Ngoc-Duong-resume-final.pdf)
 
 ## Methodology work
 
-- [Sensitivity Analysis for transportability in multi-study, multi-outcome settings](./Ngoc_writing sample_v2.pdf)
+- [Sensitivity Analysis for transportability in multi-study, multi-outcome settings](./Ngoc_paper.pdf)
 
