@@ -12,7 +12,7 @@ navbar:
       - text: "Analysis of Cumulative COVID-19 Cases across Nations"
         href: COVID_final_report.pdf
       - text: "Sensitivity Analysis for transportability in multi-study, multi-outcome settings"
-        href: Ngoc_paper.pdf
+        href: Ngoc_Paper.pdf
   - icon: fa-envelope fa-lg
     href: mailto:nqd2000@cumc.columbia.edu
   - icon: fa-github fa-lg
