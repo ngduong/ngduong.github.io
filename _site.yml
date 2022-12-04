@@ -5,6 +5,8 @@ navbar:
   right:
   - text: "About me"
     href: about.html
+  - text: "Resume"
+    href: Ngoc-Duong-resume-final.pdf
   - text: "Research"
     menu:
       - text: "Cognitive Remediation in Schizophrenia"
