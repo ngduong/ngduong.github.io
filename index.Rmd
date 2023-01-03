@@ -13,8 +13,8 @@ fontsize: 15pt
 
 I am a Data Analyst in the Childhood Research for Obesity Prevention group in the Department of Pediatrics, Columbia University. Prior to this, I received my BA in Economics and Chinese from Vassar College and MS in Biostatistics from Columbia University.
 
-My work involves leveraging electronic health records (EHR) to understand longitudinal patterns and effects of health-related social needs on pediatric obesity in a low-income, racially and ethnically diverse population in New York City. I am passionate about applying statistical methods to answer questions in population health and health policy with the eventual goal of improving health for all.
+My work involves leveraging electronic health records (EHR) to understand longitudinal patterns and effects of health-related social needs on pediatric obesity in a low-income, racially and ethnically diverse population in New York City. I am passionate about applying statistics to answer questions in population health and health policy with the eventual goal of improving health for all.
 
-In my free time, I enjoy hiking, taking (long) walks, and hanging out with friends.
+In my free time, I enjoy hiking, taking (long) walks, and spending time with friends and family.
 
 

@@ -1,0 +1,20 @@
+---
+title: "Cognitive Remediation in Schizophrenia"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo 
+---
+
+Cognitive remediation (CR) is a type of intervention that targets cognitive dysfunction in patients with schizophrenia. Studies have been conducted to understand the effect of CR on cognitive outcomes, and its overall positive effect is well-documented. However, the degree effectiveness, especially on social functioning outcomes have not been well-studied. In this project, we covered three aims: 
+
+1) Identifying important prognostic factors for outcome at follow-up using a flexible (ensemble)
+
+2) Examining potential heterogeneity in treatment effects by estimating the conditional average treatment effect (CATE) and identifying important effect modifiers, which might help identify subgroups of patients who are more likely to benefit more from CR.
+
+3) Estimating the optimal individualized treatment rule and its value (the expected outcome under the implementation of this rule). We then compared this with the expected outcomes from randomization, had everyone been treated, and had everyone not been treated.
+
+You can find the report [here](./cr_paper_merged.pdf).
+
+
