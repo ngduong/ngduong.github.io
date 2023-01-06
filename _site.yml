@@ -12,7 +12,7 @@ navbar:
       - text: "Cognitive Remediation in Schizophrenia"
         href: cr_paper_merged.pdf 
       - text: "Analysis of Cumulative COVID-19 Cases across Nations"
-        href: COVID_final_report.pdf 
+        href: COVID_final_report.pdf
   - icon: fa-envelope fa-lg
     href: mailto:nqd2000@cumc.columbia.edu
   - icon: fa-github fa-lg
