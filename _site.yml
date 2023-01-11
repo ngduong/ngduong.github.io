@@ -5,7 +5,7 @@ navbar:
   right:
   - text: "Resume"
     href: Ngoc-Duong-resume-final.pdf
-  - text: "Research"
+  - text: "Research" 
     menu:
       - text: "Sensitivity Analysis for transportability in multi-study, multi-outcome settings"
         href: Ngoc_Paper.pdf
